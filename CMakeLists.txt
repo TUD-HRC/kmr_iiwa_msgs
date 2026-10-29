@@ -26,7 +26,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Gripper.action"
   "action/ObjectSearch.action"
   "action/PlanToFrame.action"
-  "action/MoveManipulator.action"
   "msg/KmpStatusdata.msg"
   "msg/LbrStatusdata.msg"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs action_msgs nav_msgs trajectory_msgs
